@@ -42,7 +42,7 @@
     python manage.py makemigrations
     python manage.py migrate
     ```
-  - Create Admin User
+  - Create Admin User (username,password) required
     ```
     python manage.py createsuperuser
     ```
