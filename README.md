@@ -21,12 +21,33 @@
   ### Requirements
   - Python (3.x.x)
   ### SetUp
-  - Open Docker
-  - For Unix and Windows run the following command :
+  - Create virtual environment in Unix , Windows
     ```
-    docker-compose up --build
+    python -m venv venv
     ```
-
+  - Copy project folder to /venv/
+  - Activate Virtual Environment
+    Windows
+    ```
+    /venv/Scripts/activate
+    ```
+    Unix
+    ```
+    source /venv/Scripts/activate
+    ```
+  - Create database
+    ```
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
+  - Create Admin User
+    ```
+    python manage.py createsuperuser
+    ```
+  - Runserver
+    ```
+    python manage.py runserver
+    ```
 ## Running Tests
 run the following command :
 ```
