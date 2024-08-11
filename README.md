@@ -26,7 +26,9 @@
     python -m venv venv
     ```
   - Copy project folder to /venv/
+    
   - Activate Virtual Environment
+    
     Windows
     ```
     /venv/Scripts/activate
