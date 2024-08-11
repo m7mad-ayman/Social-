@@ -37,6 +37,13 @@
     ```
     source /venv/Scripts/activate
     ```
+    ```
+    cd Social-Media
+    ```
+  - Install Requirements
+    ```
+    pip install -r requirements.txt
+    ```
   - Create database
     ```
     python manage.py makemigrations
