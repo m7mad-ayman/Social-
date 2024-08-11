@@ -37,11 +37,9 @@
     ```
     source /venv/Scripts/activate
     ```
-    ```
-    cd Social-Media
-    ```
   - Install Requirements
     ```
+    cd Social-Media
     pip install -r requirements.txt
     ```
   - Create database
